@@ -11,6 +11,7 @@ function Main() {
 
   return (
     <main>
+      
       <div className="main-page">
         <Blobs className="blobs b1" />
         <Blobs2 className="blobs b2" />

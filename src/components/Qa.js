@@ -1,5 +1,5 @@
 import React from "react";
-
+import Confetti from "react-confetti";
 function Qa(props) {
   const questionsAndAnswers = [
     {
@@ -64,6 +64,7 @@ function Qa(props) {
 
   return (
     <div>
+      {score === totalQuestions ? <Confetti /> : null}
       {questionsAndAnswers.map((qa, questionIndex) => (
         <div className="question--box" key={questionIndex}>
           <p className="questions">{qa.question}</p>
