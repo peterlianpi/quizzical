@@ -64,7 +64,7 @@ function Qa(props) {
 
   return (
     <div>
-      {score === totalQuestions ? <Confetti /> : null}
+      {score === totalQuestions && showScore ? <Confetti /> : null}
       {questionsAndAnswers.map((qa, questionIndex) => (
         <div className="question--box" key={questionIndex}>
           <p className="questions">{qa.question}</p>
