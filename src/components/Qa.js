@@ -30,7 +30,7 @@ function Qa(props) {
     },
   ];
   // Correct answers for each question
-  const correctAnswers = [1, 0, 1, 0, 0];
+  const correctAnswers = [1, 0, 1, 0, 2];
   const [selectedAnswers, setSelectedAnswers] = React.useState({});
   const [showScore, setShowScore] = React.useState(false);
   const [score, setScore] = React.useState(0);
