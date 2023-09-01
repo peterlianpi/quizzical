@@ -1,0 +1,50 @@
+.b1 {
+  left: calc(50% - 423px);
+  top: calc(50% - -157px);
+}
+
+.b2 {
+  left: 321.85px;
+  bottom: 362.73px;
+  rotate: -10.51deg;
+}
+
+.header {
+  color: #293264;
+  text-align: center;
+  font: 700 31.25px "Karla", sans-serif;
+  position: absolute;
+  left: 70px;
+  top: 218px;
+  width: 412px;
+  height: 41px;
+}
+
+.description {
+  color: #293264;
+  text-align: center;
+  font: 400 16px "Karla", sans-serif;
+  position: absolute;
+  left: 117px;
+  top: 266px;
+  width: 318px;
+  height: 19px;
+}
+
+.start--button {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4d5b9e;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  width: 179px;
+  height: 52px;
+  position: absolute;
+  left: 179px;
+  top: 314px;
+  cursor: pointer;
+}
